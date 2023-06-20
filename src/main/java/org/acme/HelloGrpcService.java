@@ -5,7 +5,7 @@ import io.quarkus.security.Authenticated;
 import io.smallrye.common.annotation.Blocking;
 import io.smallrye.mutiny.Uni;
 
-//@Authenticated
+@Authenticated
 @Blocking
 @GrpcService
 public class HelloGrpcService implements HelloGrpc {
